@@ -9,7 +9,6 @@ const Bookmark = ({bookmark}) => {
             <table>
 
                 <tr className='text-[13px] font-light bg-gray-100 '>
-
                     <td className='pl-1'>{id}</td>
                     <td className='pl-2'>{name}</td>
                     <td className='px-4 py-4'>{preparing_time}</td>

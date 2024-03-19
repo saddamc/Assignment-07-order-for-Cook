@@ -7,13 +7,16 @@ import Bookmarks from "./Components/Bookmarks/Bookmarks";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+
  
   const handleAddToBookmark = blog => {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   }
 
-
+const handleCooking = time => {
+  console.log('marking', time);
+}
 
 
   return (
@@ -22,7 +25,7 @@ function App() {
       <Title></Title>
       <div className="md:flex my-[60px]">
         <Blogs handleAddToBookmark={handleAddToBookmark} ></Blogs>
-        <Bookmarks bookmarks={bookmarks} ></Bookmarks>
+        <Bookmarks bookmarks={bookmarks} handleCooking={handleCooking} ></Bookmarks>
       </div>
     </>
   );
