@@ -6,10 +6,11 @@ import Blogs from "./Components/Blogs/Blogs";
 import Bookmarks from "./Components/Bookmarks/Bookmarks";
 
 function App() {
-  const [bookmarks, setBookmars] = useState([]);
-
-  const handleBookmarks = blog => {
-    console.log('bookmark');
+  const [bookmarks, setBookmarks] = useState([]);
+ 
+  const handleAddToBookmark = blog => {
+    const newBookmarks = [...bookmarks, blog];
+    setBookmarks(newBookmarks);
   }
 
 
@@ -20,8 +21,8 @@ function App() {
       <Banner></Banner>
       <Title></Title>
       <div className="md:flex my-[60px]">
-        <Blogs handleBookmarks={handleBookmarks} ></Blogs>
-        <Bookmarks></Bookmarks>
+        <Blogs handleAddToBookmark={handleAddToBookmark} ></Blogs>
+        <Bookmarks bookmarks={bookmarks} ></Bookmarks>
       </div>
     </>
   );

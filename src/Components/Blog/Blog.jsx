@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Blog = ({blog, handleBookmarks}) => {
+
+const Blog = ({blog, handleAddToBookmark}) => {
     const {name, description, image, ingredients, preparing_time, calories} = blog;
     return (
         <div className='m-2'>
@@ -32,8 +33,8 @@ const Blog = ({blog, handleBookmarks}) => {
                 </div>
             </div>
             <div>
-                <button 
-                onClick={handleBookmarks} className='text-left items-start p-3 px-6 text-lg font-medium bg-[#0BE58A] rounded-full '>Want to CooK</button>
+                <button onClick={() => handleAddToBookmark(blog)}  className='text-left items-start p-3 px-6 text-lg font-medium bg-[#0BE58A] rounded-full '>Want to CooK 
+                </button>
             </div>
             </div>
         </div>
@@ -42,7 +43,7 @@ const Blog = ({blog, handleBookmarks}) => {
 };
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleBookmarks: PropTypes.func,
+    handleAddToBookmark: PropTypes.func.isRequired,
 }
 
 export default Blog;

@@ -1,7 +1,7 @@
 [
   {
     "image": "https://i.ibb.co/LJpg1TZ/Spicy-Chicken-Curry.jpg",
-    "id": "001",
+    "id": "1",
     "name": "Spicy Chicken Curry",
     "description": "A flavorful and aromatic chicken curry with a kick of spices.",
     "ingredients": [
@@ -15,7 +15,7 @@
   },
   {
     "image": "https://i.ibb.co/chLgGpm/Pasta-Primavera-2.jpg",
-    "id": "002",
+    "id": "2",
     "name": "Pasta Primavera",
     "description": "A light and refreshing pasta dish loaded with fresh vegetables.",
     "ingredients": [
@@ -29,7 +29,7 @@
   },
   {
     "image": "https://i.ibb.co/Ypqdx0H/Grilled-Salmon-with-Lemon-Herb-Sauce-3.jpg",
-    "id": "003",
+    "id": "3",
     "name": "Grilled Salmon with Lemon Herb Sauce",
     "description": "Delicious grilled salmon served with a tangy lemon herb sauce.",
     "ingredients": [
@@ -44,7 +44,7 @@
   },
   {
     "image": "https://i.ibb.co/g3BrWDN/Vegetable-Stir-Fry-4.jpg",
-    "id": "004",
+    "id": "4",
     "name": "Saucy Vegetable Stir Fry (Healthy)",
     "description": "A quick and healthy stir-fry loaded with colorful vegetables.",
     "ingredients": [
@@ -59,7 +59,7 @@
   },
   {
     "image": "https://i.ibb.co/D47hx2v/Mixed-Berry-Smoothie-5.jpg",
-    "id": "005",
+    "id": "5",
     "name": "Mixed Berry Smoothie",
     "description": "A refreshing smoothie bursting with the goodness of mixed berries.",
     "ingredients": [
@@ -73,7 +73,7 @@
   },
   {
     "image": "https://i.ibb.co/9bB7wTz/Greek-Salad-6.jpg",
-    "id": "006",
+    "id": "6",
     "name": "Greek Salad",
     "description": "A classic Greek salad with fresh vegetables and tangy feta cheese.",
     "ingredients": [
